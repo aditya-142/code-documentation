@@ -1,6 +1,6 @@
-# Code Product Documentation Generator
+# *Theme 3: Code Documentation Generation with Gen AI Agent*
 
-This tool helps in the generation of comprehensive documentation for Python projects from a local directory or a GitHub repository. The application analyzes Python code, extracts key information (such as module docstrings, functions, and classes) & then generates detailed markdown documentation for it.
+This tool helps in the generation of comprehensive documentation for projects from a local directory or a GitHub repository. The application analyzes Python code, extracts key information (such as module docstrings, functions, and classes) & then generates detailed markdown documentation for it.
 
 It also evaluates the quality of the generated documentation by comparing it to a reference document.
 
@@ -8,7 +8,7 @@ It also evaluates the quality of the generated documentation by comparing it to 
 
 ## Features
 
-- **Local & GitHub Support**: Analyze Python projects from local directories or GitHub repositories.
+- **Local & GitHub Support**: Analyze projects from local directories or GitHub repositories.
 - **Automatic Documentation Generation**: Automatically generate documentation based on your Python code's structure and content.
 - **Customizable Template**: Provide a custom structure for your documentation or use the default template.
 - **Documentation Evaluation**: Compare the generated documentation against a reference document and receive an evaluation report.
