@@ -1,8 +1,8 @@
 # Code Product Documentation Generator
 
-Welcome to the **Code Product Documentation Generator**! This tool allows you to automatically generate comprehensive documentation for Python projects, either from local directories or GitHub repositories. The application analyzes your Python code, extracts key information (such as module docstrings, functions, and classes), and generates detailed Markdown documentation.
+This tool allows automatically generates comprehensive documentation for Python projects from a local directory or a GitHub repository. The application analyzes Python code, extracts key information (such as module docstrings, functions, and classes) & then generates a detailed markdown document.
 
-In addition to generating documentation, the app also provides the ability to evaluate the quality of the generated documentation by comparing it to a reference document.
+It also evaluates the quality of the generated documentation by comparing it to a reference document.
 
 ---
 
@@ -20,9 +20,9 @@ In addition to generating documentation, the app also provides the ability to ev
 
 To run this project, you'll need the following:
 
-- **Python 3.x**: This is the primary programming language for the project.
-- **Streamlit**: For the web interface.
-- **OpenAI API Key**: You’ll need an API key to access OpenAI’s GPT models for documentation generation and evaluation.
+- **Python 3.10**: python version.
+- **Streamlit**: For web interface.
+- **OpenAI API Key**: To access OpenAI’s GPT models for documentation generation and evaluation.
 - **llama_index**: A set of tools for integrating code interpretation features into the agent.
 - **GitPython**: To clone GitHub repositories.
 
@@ -42,7 +42,7 @@ To securely store your OpenAI API key, you can use **Streamlit secrets**. Create
 
 ```toml
 [openai]
-OPENAI_API_KEY = "your_openai_api_key"
+OPENAI_API_KEY = "openai_api_key"
 ```
 
 ### 2. Running the Application
@@ -53,7 +53,7 @@ Once the setup is complete, you can run the Streamlit application by executing:
 streamlit run app.py
 ```
 
-This will start the web application, and you can access it by navigating to `http://localhost:8501` in your browser.
+This will start the web application, and you can access it at `http://localhost:8501` in your browser.
 
 ---
 
