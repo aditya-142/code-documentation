@@ -1,6 +1,6 @@
 # Code Product Documentation Generator
 
-This tool allows automatically generates comprehensive documentation for Python projects from a local directory or a GitHub repository. The application analyzes Python code, extracts key information (such as module docstrings, functions, and classes) & then generates a detailed markdown document.
+This tool helps in the generation of comprehensive documentation for Python projects from a local directory or a GitHub repository. The application analyzes Python code, extracts key information (such as module docstrings, functions, and classes) & then generates detailed markdown documentation for it.
 
 It also evaluates the quality of the generated documentation by comparing it to a reference document.
 
