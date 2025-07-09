@@ -1,4 +1,4 @@
-# *Theme 3: Code Documentation Generation with Gen AI Agent*
+# *Code Documentation Generation with Gen AI Agent*
 
 This tool helps in the generation of comprehensive documentation for projects from a local directory or a GitHub repository. The application analyzes Python code, extracts key information (such as module docstrings, functions, and classes) & then generates detailed markdown documentation for it.
 
